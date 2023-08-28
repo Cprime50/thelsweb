@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #f93737;
+  color: #d51717;
   text-decoration:none;
   transition: 0.3s all ease;
 }
@@ -70,7 +70,7 @@ section {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #e85b5b, #d43232);
+  background: linear-gradient(-45deg, #de1313, #d72929);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -126,14 +126,14 @@ section {
 }
 
 .btn.btn-primary {
-  background: #d75151;
-  background: linear-gradient(-45deg, #e85b5b, #d43232);
+  background: #e52727;
+  background: linear-gradient(-45deg, #e91717, #de0a0a);
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(225, 73, 73, 0.15);
 }
 
 .btn.btn-primary:hover {
-  background: linear-gradient(-45deg, #ed0909, #b30505);
+  background: linear-gradient(-45deg, #e85b5b, #d43232);
 }
 /* Feature 1 */
 .feature-1 .wrap-icon {
@@ -150,7 +150,7 @@ section {
 }
 
 .feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(-45deg, #e85b5b, #d43232);
+  background: linear-gradient(-45deg, #cd3a3a, #de0a0a);
 }
 
 .feature-1 .wrap-icon i {
@@ -175,7 +175,7 @@ section {
 }
 
 .step .number {
-  background: linear-gradient(-45deg, #e85b5b, #d43232);
+  background: linear-gradient(-45deg, #e81212, #de0a0a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -223,17 +223,17 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #d43232;
+  border: 1px solid #ed1010;
 }
 
 .testimonials-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d43232;
+  background-color: #e01616;
 }
 
 /* Pricing */
 .pricing {
   padding: 50px;
-  background: linear-gradient(-45deg, #e85b5b, #d43232);
+  background: linear-gradient(-45deg, #d70a0a, #d22020);
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
@@ -244,7 +244,7 @@ section {
 }
 
 .pricing h3 {
-  color: #d43232;
+  color: #de0a0a;
 }
 
 .pricing .price-cta {
@@ -294,7 +294,7 @@ section {
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   color: #000000;
-  background: linear-gradient(-45deg, #e85b5b, #d43232);
+  background: linear-gradient(-45deg, #c91313, #de0a0a);
   color: #fff;
   box-shadow: none;
 }
@@ -309,7 +309,7 @@ section {
 }
 
 .pricing.popular .btn-white {
-  border: 2px solid #d43232;
+  border: 2px solid #de0a0a;
 }
 
 /* CTA Section */
@@ -451,7 +451,7 @@ section {
 }
 
 .post-entry .post-text .readmore {
-  color: #d43232;
+  color: #de0a0a;
 }
 
 .sidebar-box {
@@ -711,7 +711,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #d43232;
+  color: #de0a0a;
 }
 
 .navbar .dropdown:hover>ul {
@@ -925,91 +925,12 @@ section {
 
 @media screen and (max-width: 992px) {
   .hero-section .img-wrap {
-    text-align: center;
-  }
-}
-
-
-.hero-section .img-wrap .img-2,
-.hero-section .img-wrap .img-1 {
-  position: absolute;
-  top: -50%;
-  overflow: hidden;
-  left: 0;
-  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
-  outline:2px solid #DDD;
-  border:#a1a1a1;
-  float:left;
-  opacity: 0;
-  transition: 0.3s ease;
- 
-}
-
-.hero-section .img-wrap .img-2:hover,
-.hero-section .img-wrap .img-1:hover {
-  cursor:pointer;
-  opacity: 100;
-  width:300px;
-  
-}
-
-
-@media screen and (max-width: 992px) {
-
-  .hero-section .img-wrap .img-2,
-  .hero-section .img-wrap .img-1 {
-    position: relative;
-    top: 0;
+    top: -70%;
     max-width: 100%;
+    margin-top: -60px;
   }
 }
 
-
-.hero-section .img-wrap .img-1 {
-  margin-left: 100px;
-  margin-top: 100px;
-  width: 250px;
-}
-
-@media screen and (max-width: 992px) {
-  .hero-section .img-wrap .img-1 {
-    margin-top: 0px;
-    margin-left: -20px;
-    width: 200px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  .hero-section .img-wrap .img-1 {
-    margin-top: 0px;
-    margin-left: 400px;
-    width: 200px;
-  }
-}
-
-.hero-section .img-wrap .img-2 {
-  margin-top: 500px;
-  margin-left: 80px;
-  width: 250px;
-}
-
-@media screen and (max-width: 992px) {
-  .hero-section .img-wrap .img-2 {
-    width: 200px;
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 200px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  .hero-section .img-wrap .img-2 {
-    margin-top: 0px;
-    margin-left: 100px;
-    width: 200px;
-  }
-}
 /*--------------------------------------------------------------
 # bigger text
 --------------------------------------------------------------*/
