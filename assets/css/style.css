@@ -218,6 +218,11 @@ section {
   position: relative;
 }
 
+.testimonials-slider .swiper-pagination image {
+  position: relative;
+  width:100%; 
+}
+
 .testimonials-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -626,7 +631,7 @@ section {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 200px;
 }
 
 /*--------------------------------------------------------------
