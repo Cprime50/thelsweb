@@ -286,13 +286,15 @@ section {
 
 .pricing .btn-white {
   background: #fff;
-  border: 2px solid rgb(241, 241, 241);
+  border: 2px solid rgb(209, 18, 18);
   border-radius: 4px;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .pricing .btn-white:hover {
-  color: #2d71a1;
+  color: #efe8e8;
+  background: red;
+  border: #000;
 }
 
 .pricing.popular {
@@ -854,7 +856,7 @@ section {
 --------------------------------------------------------------*/
 .hero-section {
   background: linear-gradient(to right, rgba(228, 8, 8, 0.641) 0%, rgba(228, 18, 25, 0.5) 100%), url(../img/hero-bg2.svg);
-
+  
   position: relative;
 }
 
@@ -868,7 +870,7 @@ section {
 
 @media screen and (max-width: 992px) {
   .hero-section .wave {
-    bottom: -180px;
+    bottom: -200px;
   }
 }
 
@@ -932,7 +934,7 @@ section {
   .hero-section .img-wrap {
     top: -70%;
     max-width: 100%;
-    margin-top: -60px;
+    margin-top: -120px;
   }
 }
 
@@ -952,7 +954,7 @@ section {
     font-size: 18px; /* Adjust the font size as needed */
     text-align: center;
     opacity: 1; /* Adjust the opacity as needed (0.0 to 1.0) */
-    line-height: 2.5; /* Add spacing between sentences */
+    line-height: 2.1; /* Add spacing between sentences */
     margin-bottom: 20px; /* Add spacing between rows or paragraphs */
   }
   
